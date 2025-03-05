@@ -1,0 +1,15 @@
+{
+  "name": "your-name/zoho-vault-manager",
+  "description": "Local webapp to manage Zoho Vault passwords",
+  "type": "project",
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "^7.0",
+    "vlucas/phpdotenv": "^5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
